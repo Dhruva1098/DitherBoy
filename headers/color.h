@@ -5,7 +5,7 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-struct color {
+struct Color {
   float r, g, b, a;
   Color();
   Color(float r, float g, float b, float a);

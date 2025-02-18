@@ -16,8 +16,8 @@ class Pallete {
     void AddColor(const Color& color);
     const Color& getColor(int index) const;
     int getSize() const;
-    static pallete createGrayScalePallete(int levels);
-
+    static Pallete createGrayScalePallete(int levels);
+    const Color& GetClosestColor(const Color& color) const;
   private:
     std::vector<Color> colors_;
 }

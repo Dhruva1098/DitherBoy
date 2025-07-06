@@ -7,7 +7,7 @@
 
 #include "dithrer.h"
 
-class ErrorDiffusionDithrer : public Dithrer{
+class ErrorDiffusionDithrer : public Dither{
   public:
     ~ErrorDiffusionDithrer() override = default;
 

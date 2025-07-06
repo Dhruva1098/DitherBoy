@@ -9,17 +9,17 @@
 #include <vector>
 
 
-class OrderedDithrer {
+class OrderedDithrer : public Dither {
   public:
     OrderedDithrer(int bayerSize = 2);
     ~OrderedDithrer() override = default;
 
-    void dithrer(const Image& imputImage, Image& OutputImage, cosnt Pallete& pallete) override;
+    void Dither(const Image& inputImage, Image& outputImage, const Pallete& pallete) override;
 
   private:
     int bayerSize_;
     std::vector<std::vector<float>> bayerMatrix_;
-    void GenerateBayerMatrices();
+    void GenerateBayerMatrix();
 
 };
 

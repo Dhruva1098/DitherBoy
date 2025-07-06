@@ -26,7 +26,7 @@ class Image {
     int width_;
     int height_;
     std::vector<Color> pixels_;
-}
+};
 
 
 

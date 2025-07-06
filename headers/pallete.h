@@ -20,7 +20,7 @@ class Pallete {
     const Color& GetClosestColor(const Color& color) const;
   private:
     std::vector<Color> colors_;
-}
+};
 
 
 #endif //PALLETE_H

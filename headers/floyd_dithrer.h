@@ -8,12 +8,12 @@
 
 #include "error_diffusion_dithrer.h"
 
-class floyd_dithrer : public error_diffusion_dithrer {
+class FloydDithrer : public ErrorDiffusionDithrer {
 public:
-  floyd_dithrer();
-  ~floyd_dithrer() override = default;
+  FloydDithrer();
+  ~FloydDithrer() override = default;
 
-  void Dither(const Image& input_image, Image& output_image, const Pallete& palette) override;
+  void applyDither(const Image& input_image, Image& output_image, const Pallete& palette) override;
 
 protected:
   void DistributeError(Image& image, int x, int y, const Color& color) override;

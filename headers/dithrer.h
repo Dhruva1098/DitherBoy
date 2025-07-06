@@ -11,7 +11,7 @@
 class Dither {
   public:
     virtual ~Dither() = default;
-    virtual void Dither(const Image& inputImage, Image& outputImage, const Pallete& pallete) = 0;
+    virtual void applyDither(const Image& inputImage, Image& outputImage, const Pallete& pallete) = 0;
 
   protected:
     Dither() {}

@@ -14,7 +14,7 @@ class OrderedDithrer : public Dither {
     OrderedDithrer(int bayerSize = 2);
     ~OrderedDithrer() override = default;
 
-    void Dither(const Image& inputImage, Image& outputImage, const Pallete& pallete) override;
+    void applyDither(const Image& inputImage, Image& outputImage, const Pallete& pallete) override;
 
   private:
     int bayerSize_;

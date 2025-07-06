@@ -8,6 +8,7 @@
 
 Pallete::Pallete() {}
 Pallete::Pallete(const std::vector<Color>& colors) : colors_(colors) {}
+Pallete::~Pallete() {}
 
 void Pallete::AddColor(const Color& color){
   colors_.push_back(color);

@@ -13,10 +13,10 @@ Color::Color(float r, float g, float b) : r(r), g(g), b(b), a(1.0f) {}
 
 Color Color::Clamped() {
     return Color(
-        std::clamp(r, 0.0f, 1.0f),
-        std::clamp(g, 0.0f, 1.0f),
-        std::clamp(b, 0.0f, 1.0f),
-        std::clamp(a, 0.0f, 1.0f)
+        std::max(0.0f, std::min(1.0f, r)),
+        std::max(0.0f, std::min(1.0f, g)),
+        std::max(0.0f, std::min(1.0f, b)),
+        std::max(0.0f, std::min(1.0f, a))
     );
 }
 

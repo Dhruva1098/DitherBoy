@@ -23,7 +23,7 @@ void OrderedDithrer::GenerateBayerMatrix() {
   // TODO: Implement proper Bayer matrix generation for larger sizes
 }
 
-void OrderedDithrer::Dither(const Image& inputImage, Image& outputImage, const Pallete& pallete) {
+void OrderedDithrer::applyDither(const Image& inputImage, Image& outputImage, const Pallete& pallete) {
   // TODO: Implement ordered dithering algorithm
 }
 

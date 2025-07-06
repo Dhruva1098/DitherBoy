@@ -16,6 +16,7 @@ struct Color {
   // Arithmetic operators
   Color operator-(const Color& other) const;
   Color operator+(const Color& other) const;
+  Color operator*(float scalar) const;
 };
 
 

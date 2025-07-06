@@ -156,6 +156,48 @@ CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/floyd_dithrer.cpp -o CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.s
 
+CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/flags.make
+CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o: /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/atkinson_dithrer.cpp
+CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o -MF CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o.d -o CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o -c /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/atkinson_dithrer.cpp
+
+CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/atkinson_dithrer.cpp > CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.i
+
+CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/atkinson_dithrer.cpp -o CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.s
+
+CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/flags.make
+CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o: /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/threshold_dithrer.cpp
+CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o -MF CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o.d -o CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o -c /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/threshold_dithrer.cpp
+
+CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/threshold_dithrer.cpp > CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.i
+
+CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/threshold_dithrer.cpp -o CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.s
+
+CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/flags.make
+CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o: /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/ascii_dithrer.cpp
+CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o: CMakeFiles/DitherBoy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o -MF CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o.d -o CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o -c /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/ascii_dithrer.cpp
+
+CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/ascii_dithrer.cpp > CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.i
+
+CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/ascii_dithrer.cpp -o CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.s
+
 # Object files for target DitherBoy
 DitherBoy_OBJECTS = \
 "CMakeFiles/DitherBoy.dir/main.cpp.o" \
@@ -163,7 +205,10 @@ DitherBoy_OBJECTS = \
 "CMakeFiles/DitherBoy.dir/Color.cpp.o" \
 "CMakeFiles/DitherBoy.dir/pallete.cpp.o" \
 "CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o" \
-"CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o"
+"CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o" \
+"CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o" \
+"CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o" \
+"CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o"
 
 # External object files for target DitherBoy
 DitherBoy_EXTERNAL_OBJECTS =
@@ -174,9 +219,12 @@ bin/DitherBoy: CMakeFiles/DitherBoy.dir/Color.cpp.o
 bin/DitherBoy: CMakeFiles/DitherBoy.dir/pallete.cpp.o
 bin/DitherBoy: CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o
 bin/DitherBoy: CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o
+bin/DitherBoy: CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o
+bin/DitherBoy: CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o
+bin/DitherBoy: CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o
 bin/DitherBoy: CMakeFiles/DitherBoy.dir/build.make
 bin/DitherBoy: CMakeFiles/DitherBoy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/DitherBoy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/DitherBoy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DitherBoy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

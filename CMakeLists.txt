@@ -13,6 +13,9 @@ add_executable(DitherBoy
     pallete.cpp
     ordered_dithrer.cpp
     floyd_dithrer.cpp
+    atkinson_dithrer.cpp
+    threshold_dithrer.cpp
+    ascii_dithrer.cpp
 )
 
 # Include directories

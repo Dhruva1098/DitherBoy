@@ -85,12 +85,12 @@ clean: CMakeFiles/DitherBoy.dir/clean
 CMakeFiles/DitherBoy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DitherBoy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target DitherBoy"
 .PHONY : CMakeFiles/DitherBoy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DitherBoy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DitherBoy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles 0
 .PHONY : CMakeFiles/DitherBoy.dir/rule
@@ -102,7 +102,7 @@ DitherBoy: CMakeFiles/DitherBoy.dir/rule
 # codegen rule for target.
 CMakeFiles/DitherBoy.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target DitherBoy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target DitherBoy"
 .PHONY : CMakeFiles/DitherBoy.dir/codegen
 
 # clean rule for target.

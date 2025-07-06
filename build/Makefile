@@ -177,6 +177,54 @@ Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
+ascii_dithrer.o: ascii_dithrer.cpp.o
+.PHONY : ascii_dithrer.o
+
+# target to build an object file
+ascii_dithrer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o
+.PHONY : ascii_dithrer.cpp.o
+
+ascii_dithrer.i: ascii_dithrer.cpp.i
+.PHONY : ascii_dithrer.i
+
+# target to preprocess a source file
+ascii_dithrer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.i
+.PHONY : ascii_dithrer.cpp.i
+
+ascii_dithrer.s: ascii_dithrer.cpp.s
+.PHONY : ascii_dithrer.s
+
+# target to generate assembly for a file
+ascii_dithrer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.s
+.PHONY : ascii_dithrer.cpp.s
+
+atkinson_dithrer.o: atkinson_dithrer.cpp.o
+.PHONY : atkinson_dithrer.o
+
+# target to build an object file
+atkinson_dithrer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o
+.PHONY : atkinson_dithrer.cpp.o
+
+atkinson_dithrer.i: atkinson_dithrer.cpp.i
+.PHONY : atkinson_dithrer.i
+
+# target to preprocess a source file
+atkinson_dithrer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.i
+.PHONY : atkinson_dithrer.cpp.i
+
+atkinson_dithrer.s: atkinson_dithrer.cpp.s
+.PHONY : atkinson_dithrer.s
+
+# target to generate assembly for a file
+atkinson_dithrer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.s
+.PHONY : atkinson_dithrer.cpp.s
+
 floyd_dithrer.o: floyd_dithrer.cpp.o
 .PHONY : floyd_dithrer.o
 
@@ -273,6 +321,30 @@ pallete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/pallete.cpp.s
 .PHONY : pallete.cpp.s
 
+threshold_dithrer.o: threshold_dithrer.cpp.o
+.PHONY : threshold_dithrer.o
+
+# target to build an object file
+threshold_dithrer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o
+.PHONY : threshold_dithrer.cpp.o
+
+threshold_dithrer.i: threshold_dithrer.cpp.i
+.PHONY : threshold_dithrer.i
+
+# target to preprocess a source file
+threshold_dithrer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.i
+.PHONY : threshold_dithrer.cpp.i
+
+threshold_dithrer.s: threshold_dithrer.cpp.s
+.PHONY : threshold_dithrer.s
+
+# target to generate assembly for a file
+threshold_dithrer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.s
+.PHONY : threshold_dithrer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,6 +360,12 @@ help:
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
+	@echo "... ascii_dithrer.o"
+	@echo "... ascii_dithrer.i"
+	@echo "... ascii_dithrer.s"
+	@echo "... atkinson_dithrer.o"
+	@echo "... atkinson_dithrer.i"
+	@echo "... atkinson_dithrer.s"
 	@echo "... floyd_dithrer.o"
 	@echo "... floyd_dithrer.i"
 	@echo "... floyd_dithrer.s"
@@ -300,6 +378,9 @@ help:
 	@echo "... pallete.o"
 	@echo "... pallete.i"
 	@echo "... pallete.s"
+	@echo "... threshold_dithrer.o"
+	@echo "... threshold_dithrer.i"
+	@echo "... threshold_dithrer.s"
 .PHONY : help
 
 

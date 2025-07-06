@@ -11,7 +11,10 @@
 class Image {
   public:
     Image(int width, int height);
+    Image(const Image& other); // Copy constructor
     ~Image();
+    
+    Image& operator=(const Image& other); // Assignment operator
 
     bool load(const std::string& filename);
     bool save(const std::string& filename, const std::string& format);

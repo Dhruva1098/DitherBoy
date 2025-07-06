@@ -177,6 +177,30 @@ Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
+floyd_dithrer.o: floyd_dithrer.cpp.o
+.PHONY : floyd_dithrer.o
+
+# target to build an object file
+floyd_dithrer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o
+.PHONY : floyd_dithrer.cpp.o
+
+floyd_dithrer.i: floyd_dithrer.cpp.i
+.PHONY : floyd_dithrer.i
+
+# target to preprocess a source file
+floyd_dithrer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.i
+.PHONY : floyd_dithrer.cpp.i
+
+floyd_dithrer.s: floyd_dithrer.cpp.s
+.PHONY : floyd_dithrer.s
+
+# target to generate assembly for a file
+floyd_dithrer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.s
+.PHONY : floyd_dithrer.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -264,6 +288,9 @@ help:
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
+	@echo "... floyd_dithrer.o"
+	@echo "... floyd_dithrer.i"
+	@echo "... floyd_dithrer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

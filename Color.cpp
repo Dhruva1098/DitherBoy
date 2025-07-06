@@ -20,3 +20,11 @@ Color Color::Clamped() {
     );
 }
 
+Color Color::operator-(const Color& other) const {
+    return Color(r - other.r, g - other.g, b - other.b, a - other.a);
+}
+
+Color Color::operator+(const Color& other) const {
+    return Color(r + other.r, g + other.g, b + other.b, a + other.a);
+}
+

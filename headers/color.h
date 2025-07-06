@@ -12,7 +12,10 @@ struct Color {
   Color(float r, float g, float b);
 
   Color Clamped();
-
+  
+  // Arithmetic operators
+  Color operator-(const Color& other) const;
+  Color operator+(const Color& other) const;
 };
 
 

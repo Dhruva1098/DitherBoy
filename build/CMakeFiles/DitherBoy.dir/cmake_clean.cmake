@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DitherBoy.dir/Color.cpp.o.d"
   "CMakeFiles/DitherBoy.dir/Image.cpp.o"
   "CMakeFiles/DitherBoy.dir/Image.cpp.o.d"
+  "CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o"
+  "CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o.d"
   "CMakeFiles/DitherBoy.dir/main.cpp.o"
   "CMakeFiles/DitherBoy.dir/main.cpp.o.d"
   "CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o"

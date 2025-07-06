@@ -9,7 +9,19 @@
 #include <iostream>
 
 Image::Image(int width, int height) : width_(width), height_(height), pixels_(width * height) {}
+
+Image::Image(const Image& other) : width_(other.width_), height_(other.height_), pixels_(other.pixels_) {}
+
 Image::~Image() {}
+
+Image& Image::operator=(const Image& other) {
+    if (this != &other) {
+        width_ = other.width_;
+        height_ = other.height_;
+        pixels_ = other.pixels_;
+    }
+    return *this;
+}
 
 bool Image::load(const std::string& filename) {
   int channels;

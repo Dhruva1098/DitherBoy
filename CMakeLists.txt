@@ -12,6 +12,7 @@ add_executable(DitherBoy
     Color.cpp
     pallete.cpp
     ordered_dithrer.cpp
+    floyd_dithrer.cpp
 )
 
 # Include directories

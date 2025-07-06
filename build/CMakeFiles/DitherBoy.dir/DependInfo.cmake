@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/Color.cpp" "CMakeFiles/DitherBoy.dir/Color.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/Color.cpp.o.d"
   "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/Image.cpp" "CMakeFiles/DitherBoy.dir/Image.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/Image.cpp.o.d"
+  "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/floyd_dithrer.cpp" "CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o.d"
   "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/main.cpp" "CMakeFiles/DitherBoy.dir/main.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/main.cpp.o.d"
   "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/ordered_dithrer.cpp" "CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o.d"
   "/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/pallete.cpp" "CMakeFiles/DitherBoy.dir/pallete.cpp.o" "gcc" "CMakeFiles/DitherBoy.dir/pallete.cpp.o.d"

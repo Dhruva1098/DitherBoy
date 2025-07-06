@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DitherBoy Web UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DitherBoy Web UI</h1>
+        
+        <div class="main-layout">
+            <!-- Left Half: Dithered Image -->
+            <div class="left-panel">
+                <div class="dithered-container">
+                    <h2>Dithered Result</h2>
+                    <div class="image-display">
+                        <img id="ditheredImg" src="" alt="Dithered" style="display:none;">
+                        <div id="placeholder" class="placeholder">
+                            <div class="placeholder-icon">🎨</div>
+                            <p>Upload an image and apply dithering to see the result here</p>
+                        </div>
+                    </div>
+                    <a id="downloadBtn" href="#" download="dithered.png" style="display:none;">Download Result</a>
+                </div>
+            </div>
+
+            <!-- Right Half: Controls and Original -->
+            <div class="right-panel">
+                <!-- Upload Zone -->
+                <div class="upload-zone" id="uploadZone">
+                    <div class="upload-content">
+                        <div class="upload-icon">📁</div>
+                        <p>Drag & drop an image here or <span class="browse-link" id="browseLink">browse</span></p>
+                        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                    </div>
+                </div>
+
+                <!-- Original Image -->
+                <div class="original-container">
+                    <h3>Original Image</h3>
+                    <div class="original-image">
+                        <img id="originalImg" src="" alt="Original" style="display:none;">
+                        <div id="originalPlaceholder" class="placeholder small">
+                            <div class="placeholder-icon">🖼️</div>
+                            <p>No image loaded</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <div class="control-group">
+                        <label>Algorithm: <span id="algorithmValue">Floyd-Steinberg</span></label>
+                        <input type="range" id="algorithmSlider" min="0" max="4" value="0" class="slider">
+                        <div class="slider-labels">
+                            <span>Floyd</span>
+                            <span>Atkinson</span>
+                            <span>Ordered</span>
+                            <span>Threshold</span>
+                            <span>ASCII</span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label>Palette: <span id="paletteValue">Grayscale</span></label>
+                        <input type="range" id="paletteSlider" min="0" max="3" value="0" class="slider">
+                        <div class="slider-labels">
+                            <span>Grayscale</span>
+                            <span>GameBoy</span>
+                            <span>NES</span>
+                            <span>CGA</span>
+                        </div>
+                    </div>
+
+                    <div class="parameters" id="parameters">
+                        <!-- Dynamic parameter controls will be inserted here -->
+                    </div>
+                    
+                    <button id="ditherBtn">Apply Dithering</button>
+                </div>
+
+                <div id="status"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

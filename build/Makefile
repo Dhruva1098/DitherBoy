@@ -129,12 +129,131 @@ DitherBoy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/build
 .PHONY : DitherBoy/fast
 
+#=============================================================================
+# Target rules for targets named DitherBoyQt
+
+# Build rule for target.
+DitherBoyQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyQt
+.PHONY : DitherBoyQt
+
+# fast build rule for target.
+DitherBoyQt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/build
+.PHONY : DitherBoyQt/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyImGui
+
+# Build rule for target.
+DitherBoyImGui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyImGui
+.PHONY : DitherBoyImGui
+
+# fast build rule for target.
+DitherBoyImGui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/build
+.PHONY : DitherBoyImGui/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyWeb
+
+# Build rule for target.
+DitherBoyWeb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyWeb
+.PHONY : DitherBoyWeb
+
+# fast build rule for target.
+DitherBoyWeb/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/build
+.PHONY : DitherBoyWeb/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyQt_autogen_timestamp_deps
+
+# Build rule for target.
+DitherBoyQt_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyQt_autogen_timestamp_deps
+.PHONY : DitherBoyQt_autogen_timestamp_deps
+
+# fast build rule for target.
+DitherBoyQt_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt_autogen_timestamp_deps.dir/build.make CMakeFiles/DitherBoyQt_autogen_timestamp_deps.dir/build
+.PHONY : DitherBoyQt_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyQt_autogen
+
+# Build rule for target.
+DitherBoyQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyQt_autogen
+.PHONY : DitherBoyQt_autogen
+
+# fast build rule for target.
+DitherBoyQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt_autogen.dir/build.make CMakeFiles/DitherBoyQt_autogen.dir/build
+.PHONY : DitherBoyQt_autogen/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyImGui_autogen_timestamp_deps
+
+# Build rule for target.
+DitherBoyImGui_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyImGui_autogen_timestamp_deps
+.PHONY : DitherBoyImGui_autogen_timestamp_deps
+
+# fast build rule for target.
+DitherBoyImGui_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui_autogen_timestamp_deps.dir/build.make CMakeFiles/DitherBoyImGui_autogen_timestamp_deps.dir/build
+.PHONY : DitherBoyImGui_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyImGui_autogen
+
+# Build rule for target.
+DitherBoyImGui_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyImGui_autogen
+.PHONY : DitherBoyImGui_autogen
+
+# fast build rule for target.
+DitherBoyImGui_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui_autogen.dir/build.make CMakeFiles/DitherBoyImGui_autogen.dir/build
+.PHONY : DitherBoyImGui_autogen/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyWeb_autogen_timestamp_deps
+
+# Build rule for target.
+DitherBoyWeb_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyWeb_autogen_timestamp_deps
+.PHONY : DitherBoyWeb_autogen_timestamp_deps
+
+# fast build rule for target.
+DitherBoyWeb_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb_autogen_timestamp_deps.dir/build.make CMakeFiles/DitherBoyWeb_autogen_timestamp_deps.dir/build
+.PHONY : DitherBoyWeb_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named DitherBoyWeb_autogen
+
+# Build rule for target.
+DitherBoyWeb_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DitherBoyWeb_autogen
+.PHONY : DitherBoyWeb_autogen
+
+# fast build rule for target.
+DitherBoyWeb_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb_autogen.dir/build.make CMakeFiles/DitherBoyWeb_autogen.dir/build
+.PHONY : DitherBoyWeb_autogen/fast
+
 Color.o: Color.cpp.o
 .PHONY : Color.o
 
 # target to build an object file
 Color.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Color.cpp.o
 .PHONY : Color.cpp.o
 
 Color.i: Color.cpp.i
@@ -143,6 +262,8 @@ Color.i: Color.cpp.i
 # target to preprocess a source file
 Color.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Color.cpp.i
 .PHONY : Color.cpp.i
 
 Color.s: Color.cpp.s
@@ -151,7 +272,81 @@ Color.s: Color.cpp.s
 # target to generate assembly for a file
 Color.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Color.cpp.s
 .PHONY : Color.cpp.s
+
+DitherBoyImGui_autogen/mocs_compilation.o: DitherBoyImGui_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.o
+
+# target to build an object file
+DitherBoyImGui_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/DitherBoyImGui_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.cpp.o
+
+DitherBoyImGui_autogen/mocs_compilation.i: DitherBoyImGui_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+DitherBoyImGui_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/DitherBoyImGui_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.cpp.i
+
+DitherBoyImGui_autogen/mocs_compilation.s: DitherBoyImGui_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+DitherBoyImGui_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/DitherBoyImGui_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyImGui_autogen/mocs_compilation.cpp.s
+
+DitherBoyQt_autogen/mocs_compilation.o: DitherBoyQt_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyQt_autogen/mocs_compilation.o
+
+# target to build an object file
+DitherBoyQt_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/DitherBoyQt_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyQt_autogen/mocs_compilation.cpp.o
+
+DitherBoyQt_autogen/mocs_compilation.i: DitherBoyQt_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyQt_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+DitherBoyQt_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/DitherBoyQt_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyQt_autogen/mocs_compilation.cpp.i
+
+DitherBoyQt_autogen/mocs_compilation.s: DitherBoyQt_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyQt_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+DitherBoyQt_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/DitherBoyQt_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyQt_autogen/mocs_compilation.cpp.s
+
+DitherBoyWeb_autogen/mocs_compilation.o: DitherBoyWeb_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.o
+
+# target to build an object file
+DitherBoyWeb_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/DitherBoyWeb_autogen/mocs_compilation.cpp.o
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.cpp.o
+
+DitherBoyWeb_autogen/mocs_compilation.i: DitherBoyWeb_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+DitherBoyWeb_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/DitherBoyWeb_autogen/mocs_compilation.cpp.i
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.cpp.i
+
+DitherBoyWeb_autogen/mocs_compilation.s: DitherBoyWeb_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+DitherBoyWeb_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/DitherBoyWeb_autogen/mocs_compilation.cpp.s
+.PHONY : DitherBoyWeb_autogen/mocs_compilation.cpp.s
 
 Image.o: Image.cpp.o
 .PHONY : Image.o
@@ -159,6 +354,8 @@ Image.o: Image.cpp.o
 # target to build an object file
 Image.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Image.cpp.o
 .PHONY : Image.cpp.o
 
 Image.i: Image.cpp.i
@@ -167,6 +364,8 @@ Image.i: Image.cpp.i
 # target to preprocess a source file
 Image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Image.cpp.i
 .PHONY : Image.cpp.i
 
 Image.s: Image.cpp.s
@@ -175,6 +374,8 @@ Image.s: Image.cpp.s
 # target to generate assembly for a file
 Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/Image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/Image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
 ascii_dithrer.o: ascii_dithrer.cpp.o
@@ -183,6 +384,8 @@ ascii_dithrer.o: ascii_dithrer.cpp.o
 # target to build an object file
 ascii_dithrer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ascii_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ascii_dithrer.cpp.o
 .PHONY : ascii_dithrer.cpp.o
 
 ascii_dithrer.i: ascii_dithrer.cpp.i
@@ -191,6 +394,8 @@ ascii_dithrer.i: ascii_dithrer.cpp.i
 # target to preprocess a source file
 ascii_dithrer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ascii_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ascii_dithrer.cpp.i
 .PHONY : ascii_dithrer.cpp.i
 
 ascii_dithrer.s: ascii_dithrer.cpp.s
@@ -199,6 +404,8 @@ ascii_dithrer.s: ascii_dithrer.cpp.s
 # target to generate assembly for a file
 ascii_dithrer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ascii_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ascii_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ascii_dithrer.cpp.s
 .PHONY : ascii_dithrer.cpp.s
 
 atkinson_dithrer.o: atkinson_dithrer.cpp.o
@@ -207,6 +414,8 @@ atkinson_dithrer.o: atkinson_dithrer.cpp.o
 # target to build an object file
 atkinson_dithrer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/atkinson_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/atkinson_dithrer.cpp.o
 .PHONY : atkinson_dithrer.cpp.o
 
 atkinson_dithrer.i: atkinson_dithrer.cpp.i
@@ -215,6 +424,8 @@ atkinson_dithrer.i: atkinson_dithrer.cpp.i
 # target to preprocess a source file
 atkinson_dithrer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/atkinson_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/atkinson_dithrer.cpp.i
 .PHONY : atkinson_dithrer.cpp.i
 
 atkinson_dithrer.s: atkinson_dithrer.cpp.s
@@ -223,7 +434,177 @@ atkinson_dithrer.s: atkinson_dithrer.cpp.s
 # target to generate assembly for a file
 atkinson_dithrer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/atkinson_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/atkinson_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/atkinson_dithrer.cpp.s
 .PHONY : atkinson_dithrer.cpp.s
+
+external/imgui/backends/imgui_impl_glfw.o: external/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : external/imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+external/imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : external/imgui/backends/imgui_impl_glfw.cpp.o
+
+external/imgui/backends/imgui_impl_glfw.i: external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : external/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+external/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : external/imgui/backends/imgui_impl_glfw.cpp.i
+
+external/imgui/backends/imgui_impl_glfw.s: external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : external/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+external/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : external/imgui/backends/imgui_impl_glfw.cpp.s
+
+external/imgui/backends/imgui_impl_opengl3.o: external/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : external/imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+external/imgui/backends/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.o
+
+external/imgui/backends/imgui_impl_opengl3.i: external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : external/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+external/imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.i
+
+external/imgui/backends/imgui_impl_opengl3.s: external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : external/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+external/imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.s
+
+external/imgui/imgui.o: external/imgui/imgui.cpp.o
+.PHONY : external/imgui/imgui.o
+
+# target to build an object file
+external/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui.cpp.o
+.PHONY : external/imgui/imgui.cpp.o
+
+external/imgui/imgui.i: external/imgui/imgui.cpp.i
+.PHONY : external/imgui/imgui.i
+
+# target to preprocess a source file
+external/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui.cpp.i
+.PHONY : external/imgui/imgui.cpp.i
+
+external/imgui/imgui.s: external/imgui/imgui.cpp.s
+.PHONY : external/imgui/imgui.s
+
+# target to generate assembly for a file
+external/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui.cpp.s
+.PHONY : external/imgui/imgui.cpp.s
+
+external/imgui/imgui_demo.o: external/imgui/imgui_demo.cpp.o
+.PHONY : external/imgui/imgui_demo.o
+
+# target to build an object file
+external/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_demo.cpp.o
+.PHONY : external/imgui/imgui_demo.cpp.o
+
+external/imgui/imgui_demo.i: external/imgui/imgui_demo.cpp.i
+.PHONY : external/imgui/imgui_demo.i
+
+# target to preprocess a source file
+external/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_demo.cpp.i
+.PHONY : external/imgui/imgui_demo.cpp.i
+
+external/imgui/imgui_demo.s: external/imgui/imgui_demo.cpp.s
+.PHONY : external/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+external/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_demo.cpp.s
+.PHONY : external/imgui/imgui_demo.cpp.s
+
+external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
+.PHONY : external/imgui/imgui_draw.o
+
+# target to build an object file
+external/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_draw.cpp.o
+.PHONY : external/imgui/imgui_draw.cpp.o
+
+external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
+.PHONY : external/imgui/imgui_draw.i
+
+# target to preprocess a source file
+external/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_draw.cpp.i
+.PHONY : external/imgui/imgui_draw.cpp.i
+
+external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
+.PHONY : external/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+external/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_draw.cpp.s
+.PHONY : external/imgui/imgui_draw.cpp.s
+
+external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
+.PHONY : external/imgui/imgui_tables.o
+
+# target to build an object file
+external/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_tables.cpp.o
+.PHONY : external/imgui/imgui_tables.cpp.o
+
+external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
+.PHONY : external/imgui/imgui_tables.i
+
+# target to preprocess a source file
+external/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_tables.cpp.i
+.PHONY : external/imgui/imgui_tables.cpp.i
+
+external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
+.PHONY : external/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+external/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_tables.cpp.s
+.PHONY : external/imgui/imgui_tables.cpp.s
+
+external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
+.PHONY : external/imgui/imgui_widgets.o
+
+# target to build an object file
+external/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_widgets.cpp.o
+.PHONY : external/imgui/imgui_widgets.cpp.o
+
+external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
+.PHONY : external/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+external/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_widgets.cpp.i
+.PHONY : external/imgui/imgui_widgets.cpp.i
+
+external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
+.PHONY : external/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+external/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/external/imgui/imgui_widgets.cpp.s
+.PHONY : external/imgui/imgui_widgets.cpp.s
 
 floyd_dithrer.o: floyd_dithrer.cpp.o
 .PHONY : floyd_dithrer.o
@@ -231,6 +612,8 @@ floyd_dithrer.o: floyd_dithrer.cpp.o
 # target to build an object file
 floyd_dithrer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/floyd_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/floyd_dithrer.cpp.o
 .PHONY : floyd_dithrer.cpp.o
 
 floyd_dithrer.i: floyd_dithrer.cpp.i
@@ -239,6 +622,8 @@ floyd_dithrer.i: floyd_dithrer.cpp.i
 # target to preprocess a source file
 floyd_dithrer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/floyd_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/floyd_dithrer.cpp.i
 .PHONY : floyd_dithrer.cpp.i
 
 floyd_dithrer.s: floyd_dithrer.cpp.s
@@ -247,7 +632,57 @@ floyd_dithrer.s: floyd_dithrer.cpp.s
 # target to generate assembly for a file
 floyd_dithrer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/floyd_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/floyd_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/floyd_dithrer.cpp.s
 .PHONY : floyd_dithrer.cpp.s
+
+gui/main.o: gui/main.cpp.o
+.PHONY : gui/main.o
+
+# target to build an object file
+gui/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main.cpp.o
+.PHONY : gui/main.cpp.o
+
+gui/main.i: gui/main.cpp.i
+.PHONY : gui/main.i
+
+# target to preprocess a source file
+gui/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main.cpp.i
+.PHONY : gui/main.cpp.i
+
+gui/main.s: gui/main.cpp.s
+.PHONY : gui/main.s
+
+# target to generate assembly for a file
+gui/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main.cpp.s
+.PHONY : gui/main.cpp.s
+
+gui/main_window.o: gui/main_window.cpp.o
+.PHONY : gui/main_window.o
+
+# target to build an object file
+gui/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main_window.cpp.o
+.PHONY : gui/main_window.cpp.o
+
+gui/main_window.i: gui/main_window.cpp.i
+.PHONY : gui/main_window.i
+
+# target to preprocess a source file
+gui/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main_window.cpp.i
+.PHONY : gui/main_window.cpp.i
+
+gui/main_window.s: gui/main_window.cpp.s
+.PHONY : gui/main_window.s
+
+# target to generate assembly for a file
+gui/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyQt.dir/build.make CMakeFiles/DitherBoyQt.dir/gui/main_window.cpp.s
+.PHONY : gui/main_window.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -273,12 +708,38 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_imgui.o: main_imgui.cpp.o
+.PHONY : main_imgui.o
+
+# target to build an object file
+main_imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/main_imgui.cpp.o
+.PHONY : main_imgui.cpp.o
+
+main_imgui.i: main_imgui.cpp.i
+.PHONY : main_imgui.i
+
+# target to preprocess a source file
+main_imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/main_imgui.cpp.i
+.PHONY : main_imgui.cpp.i
+
+main_imgui.s: main_imgui.cpp.s
+.PHONY : main_imgui.s
+
+# target to generate assembly for a file
+main_imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/main_imgui.cpp.s
+.PHONY : main_imgui.cpp.s
+
 ordered_dithrer.o: ordered_dithrer.cpp.o
 .PHONY : ordered_dithrer.o
 
 # target to build an object file
 ordered_dithrer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ordered_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ordered_dithrer.cpp.o
 .PHONY : ordered_dithrer.cpp.o
 
 ordered_dithrer.i: ordered_dithrer.cpp.i
@@ -287,6 +748,8 @@ ordered_dithrer.i: ordered_dithrer.cpp.i
 # target to preprocess a source file
 ordered_dithrer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ordered_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ordered_dithrer.cpp.i
 .PHONY : ordered_dithrer.cpp.i
 
 ordered_dithrer.s: ordered_dithrer.cpp.s
@@ -295,6 +758,8 @@ ordered_dithrer.s: ordered_dithrer.cpp.s
 # target to generate assembly for a file
 ordered_dithrer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/ordered_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/ordered_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/ordered_dithrer.cpp.s
 .PHONY : ordered_dithrer.cpp.s
 
 pallete.o: pallete.cpp.o
@@ -303,6 +768,8 @@ pallete.o: pallete.cpp.o
 # target to build an object file
 pallete.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/pallete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/pallete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/pallete.cpp.o
 .PHONY : pallete.cpp.o
 
 pallete.i: pallete.cpp.i
@@ -311,6 +778,8 @@ pallete.i: pallete.cpp.i
 # target to preprocess a source file
 pallete.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/pallete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/pallete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/pallete.cpp.i
 .PHONY : pallete.cpp.i
 
 pallete.s: pallete.cpp.s
@@ -319,6 +788,8 @@ pallete.s: pallete.cpp.s
 # target to generate assembly for a file
 pallete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/pallete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/pallete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/pallete.cpp.s
 .PHONY : pallete.cpp.s
 
 threshold_dithrer.o: threshold_dithrer.cpp.o
@@ -327,6 +798,8 @@ threshold_dithrer.o: threshold_dithrer.cpp.o
 # target to build an object file
 threshold_dithrer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/threshold_dithrer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/threshold_dithrer.cpp.o
 .PHONY : threshold_dithrer.cpp.o
 
 threshold_dithrer.i: threshold_dithrer.cpp.i
@@ -335,6 +808,8 @@ threshold_dithrer.i: threshold_dithrer.cpp.i
 # target to preprocess a source file
 threshold_dithrer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/threshold_dithrer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/threshold_dithrer.cpp.i
 .PHONY : threshold_dithrer.cpp.i
 
 threshold_dithrer.s: threshold_dithrer.cpp.s
@@ -343,7 +818,33 @@ threshold_dithrer.s: threshold_dithrer.cpp.s
 # target to generate assembly for a file
 threshold_dithrer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoy.dir/build.make CMakeFiles/DitherBoy.dir/threshold_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyImGui.dir/build.make CMakeFiles/DitherBoyImGui.dir/threshold_dithrer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/threshold_dithrer.cpp.s
 .PHONY : threshold_dithrer.cpp.s
+
+web_ui/main_web.o: web_ui/main_web.cpp.o
+.PHONY : web_ui/main_web.o
+
+# target to build an object file
+web_ui/main_web.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/web_ui/main_web.cpp.o
+.PHONY : web_ui/main_web.cpp.o
+
+web_ui/main_web.i: web_ui/main_web.cpp.i
+.PHONY : web_ui/main_web.i
+
+# target to preprocess a source file
+web_ui/main_web.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/web_ui/main_web.cpp.i
+.PHONY : web_ui/main_web.cpp.i
+
+web_ui/main_web.s: web_ui/main_web.cpp.s
+.PHONY : web_ui/main_web.s
+
+# target to generate assembly for a file
+web_ui/main_web.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DitherBoyWeb.dir/build.make CMakeFiles/DitherBoyWeb.dir/web_ui/main_web.cpp.s
+.PHONY : web_ui/main_web.cpp.s
 
 # Help Target
 help:
@@ -353,10 +854,28 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DitherBoyImGui_autogen"
+	@echo "... DitherBoyImGui_autogen_timestamp_deps"
+	@echo "... DitherBoyQt_autogen"
+	@echo "... DitherBoyQt_autogen_timestamp_deps"
+	@echo "... DitherBoyWeb_autogen"
+	@echo "... DitherBoyWeb_autogen_timestamp_deps"
 	@echo "... DitherBoy"
+	@echo "... DitherBoyImGui"
+	@echo "... DitherBoyQt"
+	@echo "... DitherBoyWeb"
 	@echo "... Color.o"
 	@echo "... Color.i"
 	@echo "... Color.s"
+	@echo "... DitherBoyImGui_autogen/mocs_compilation.o"
+	@echo "... DitherBoyImGui_autogen/mocs_compilation.i"
+	@echo "... DitherBoyImGui_autogen/mocs_compilation.s"
+	@echo "... DitherBoyQt_autogen/mocs_compilation.o"
+	@echo "... DitherBoyQt_autogen/mocs_compilation.i"
+	@echo "... DitherBoyQt_autogen/mocs_compilation.s"
+	@echo "... DitherBoyWeb_autogen/mocs_compilation.o"
+	@echo "... DitherBoyWeb_autogen/mocs_compilation.i"
+	@echo "... DitherBoyWeb_autogen/mocs_compilation.s"
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
@@ -366,12 +885,42 @@ help:
 	@echo "... atkinson_dithrer.o"
 	@echo "... atkinson_dithrer.i"
 	@echo "... atkinson_dithrer.s"
+	@echo "... external/imgui/backends/imgui_impl_glfw.o"
+	@echo "... external/imgui/backends/imgui_impl_glfw.i"
+	@echo "... external/imgui/backends/imgui_impl_glfw.s"
+	@echo "... external/imgui/backends/imgui_impl_opengl3.o"
+	@echo "... external/imgui/backends/imgui_impl_opengl3.i"
+	@echo "... external/imgui/backends/imgui_impl_opengl3.s"
+	@echo "... external/imgui/imgui.o"
+	@echo "... external/imgui/imgui.i"
+	@echo "... external/imgui/imgui.s"
+	@echo "... external/imgui/imgui_demo.o"
+	@echo "... external/imgui/imgui_demo.i"
+	@echo "... external/imgui/imgui_demo.s"
+	@echo "... external/imgui/imgui_draw.o"
+	@echo "... external/imgui/imgui_draw.i"
+	@echo "... external/imgui/imgui_draw.s"
+	@echo "... external/imgui/imgui_tables.o"
+	@echo "... external/imgui/imgui_tables.i"
+	@echo "... external/imgui/imgui_tables.s"
+	@echo "... external/imgui/imgui_widgets.o"
+	@echo "... external/imgui/imgui_widgets.i"
+	@echo "... external/imgui/imgui_widgets.s"
 	@echo "... floyd_dithrer.o"
 	@echo "... floyd_dithrer.i"
 	@echo "... floyd_dithrer.s"
+	@echo "... gui/main.o"
+	@echo "... gui/main.i"
+	@echo "... gui/main.s"
+	@echo "... gui/main_window.o"
+	@echo "... gui/main_window.i"
+	@echo "... gui/main_window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_imgui.o"
+	@echo "... main_imgui.i"
+	@echo "... main_imgui.s"
 	@echo "... ordered_dithrer.o"
 	@echo "... ordered_dithrer.i"
 	@echo "... ordered_dithrer.s"
@@ -381,6 +930,9 @@ help:
 	@echo "... threshold_dithrer.o"
 	@echo "... threshold_dithrer.i"
 	@echo "... threshold_dithrer.s"
+	@echo "... web_ui/main_web.o"
+	@echo "... web_ui/main_web.i"
+	@echo "... web_ui/main_web.s"
 .PHONY : help
 
 

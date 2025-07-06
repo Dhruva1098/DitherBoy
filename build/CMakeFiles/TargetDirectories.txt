@@ -1,3 +1,12 @@
 /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoy.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyQt.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyImGui.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyWeb.dir
 /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/edit_cache.dir
 /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/rebuild_cache.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyQt_autogen_timestamp_deps.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyQt_autogen.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyImGui_autogen_timestamp_deps.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyImGui_autogen.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyWeb_autogen_timestamp_deps.dir
+/Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/CMakeFiles/DitherBoyWeb_autogen.dir

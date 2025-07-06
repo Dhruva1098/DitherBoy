@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_DitherBoy_FILE /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/bin/DitherBoy)
+set(__QT_DEPLOY_TARGET_DitherBoy_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_DitherBoyQt_FILE /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/DitherBoyQt)
+set(__QT_DEPLOY_TARGET_DitherBoyQt_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_DitherBoyImGui_FILE /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/DitherBoyImGui)
+set(__QT_DEPLOY_TARGET_DitherBoyImGui_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_DitherBoyWeb_FILE /Users/dhruvasharma/Documents/projects-cpp/DitherBoy/build/DitherBoyWeb)
+set(__QT_DEPLOY_TARGET_DitherBoyWeb_TYPE EXECUTABLE)

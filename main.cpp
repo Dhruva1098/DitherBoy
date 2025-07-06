@@ -2,86 +2,57 @@
 #include <string>
 #include "headers/Image.h"
 #include "headers/pallete.h"
-#include "headers/floyd_dithrer.h"
 #include "headers/ordered_dithrer.h"
 
 int main() {
-    std::cout << "DitherBoy - Image Dithering Tool\n";
-    std::cout << "================================\n\n";
+    std::cout << "DitherBoy - Ordered Dithering Test\n";
+    std::cout << "=================================\n\n";
     
-    // Create a simple test image (gradient)
+    // Create a simple test image (grayscale gradient)
     int width = 256;
     int height = 256;
     Image testImage(width, height);
-    
-    // Create a gradient from black to white
     for (int y = 0; y < height; y++) {
         for (int x = 0; x < width; x++) {
             float grayValue = static_cast<float>(x) / static_cast<float>(width - 1);
             testImage.setPixel(x, y, Color(grayValue, grayValue, grayValue));
         }
     }
+    testImage.save("test_gradient.png", "png");
     
-    // Test with different palettes
-    std::cout << "Testing Floyd-Steinberg dithering with various palettes...\n\n";
-    
-    // Create Floyd-Steinberg ditherer
-    FloydDithrer floydDitherer;
-    
-    // 1. Grayscale palette with 4 levels
-    Pallete grayscalePalette4 = Pallete::createGrayScalePallete(4);
-    Image output4Levels(width, height);
-    floydDitherer.applyDither(testImage, output4Levels, grayscalePalette4);
-    output4Levels.save("floyd_4levels.png", "png");
-    std::cout << "Saved 4-level grayscale dithered image\n";
-    
-    // 2. Grayscale palette with 8 levels
-    Pallete grayscalePalette8 = Pallete::createGrayScalePallete(8);
-    Image output8Levels(width, height);
-    floydDitherer.applyDither(testImage, output8Levels, grayscalePalette8);
-    output8Levels.save("floyd_8levels.png", "png");
-    std::cout << "Saved 8-level grayscale dithered image\n";
-    
-    // 3. Custom color palette (GameBoy-like: black, dark green, light green, white)
+    // Palettes
+    Pallete grayscale4 = Pallete::createGrayScalePallete(4);
+    Pallete grayscale8 = Pallete::createGrayScalePallete(8);
     std::vector<Color> gameboyColors = {
-        Color(0.0f, 0.0f, 0.0f),           // Black
-        Color(0.0f, 0.3f, 0.0f),           // Dark green
-        Color(0.0f, 0.6f, 0.0f),           // Medium green
-        Color(0.0f, 0.9f, 0.0f)            // Light green
+        Color(0.0f, 0.0f, 0.0f),
+        Color(0.0f, 0.3f, 0.0f),
+        Color(0.0f, 0.6f, 0.0f),
+        Color(0.0f, 0.9f, 0.0f)
     };
     Pallete gameboyPalette(gameboyColors);
-    Image outputGameboy(width, height);
-    floydDitherer.applyDither(testImage, outputGameboy, gameboyPalette);
-    outputGameboy.save("floyd_gameboy.png", "png");
-    std::cout << "Saved GameBoy-style dithered image\n";
+
+    // Bayer sizes to test
+    std::vector<int> bayerSizes = {1, 2, 3}; // 2x2, 4x4, 8x8
     
-    // 4. Create a color gradient test
-    Image colorGradient(width, height);
-    for (int y = 0; y < height; y++) {
-        for (int x = 0; x < width; x++) {
-            float r = static_cast<float>(x) / static_cast<float>(width - 1);
-            float g = static_cast<float>(y) / static_cast<float>(height - 1);
-            float b = 0.5f;
-            colorGradient.setPixel(x, y, Color(r, g, b));
-        }
+    for (int bayer : bayerSizes) {
+        OrderedDithrer ditherer(bayer);
+        // Grayscale 4-level
+        Image outGray4(width, height);
+        ditherer.applyDither(testImage, outGray4, grayscale4);
+        outGray4.save("ordered_gray4_bayer" + std::to_string(1 << bayer) + ".png", "png");
+        std::cout << "Saved ordered_gray4_bayer" << (1 << bayer) << ".png\n";
+        // Grayscale 8-level
+        Image outGray8(width, height);
+        ditherer.applyDither(testImage, outGray8, grayscale8);
+        outGray8.save("ordered_gray8_bayer" + std::to_string(1 << bayer) + ".png", "png");
+        std::cout << "Saved ordered_gray8_bayer" << (1 << bayer) << ".png\n";
+        // GameBoy palette
+        Image outGB(width, height);
+        ditherer.applyDither(testImage, outGB, gameboyPalette);
+        outGB.save("ordered_gameboy_bayer" + std::to_string(1 << bayer) + ".png", "png");
+        std::cout << "Saved ordered_gameboy_bayer" << (1 << bayer) << ".png\n";
     }
-    colorGradient.save("color_gradient.png", "png");
-    std::cout << "Saved color gradient test image\n";
     
-    // Apply dithering to color gradient
-    Image outputColor(width, height);
-    floydDitherer.applyDither(colorGradient, outputColor, gameboyPalette);
-    outputColor.save("floyd_color_gameboy.png", "png");
-    std::cout << "Saved color gradient dithered with GameBoy palette\n";
-    
-    std::cout << "\nAll tests completed successfully!\n";
-    std::cout << "Generated files:\n";
-    std::cout << "- test_gradient.png (original grayscale gradient)\n";
-    std::cout << "- floyd_4levels.png (4-level grayscale dithering)\n";
-    std::cout << "- floyd_8levels.png (8-level grayscale dithering)\n";
-    std::cout << "- floyd_gameboy.png (GameBoy-style dithering)\n";
-    std::cout << "- color_gradient.png (original color gradient)\n";
-    std::cout << "- floyd_color_gameboy.png (color gradient with GameBoy palette)\n";
-    
+    std::cout << "\nAll ordered dithering tests completed!\n";
     return 0;
 }
